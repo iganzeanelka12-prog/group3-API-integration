@@ -1,0 +1,12 @@
+{
+  "name": "codebridge-learning-platform",
+  "version": "1.0.0",
+  "private": true,
+  "description": "CodeBridge Learning Platform — Full Stack React.js Frontend & Express Backend",
+  "scripts": {
+    "dev": "npm run dev --prefix codebridge-frontend",
+    "start": "npm start --prefix backend-work-code-bridge-API-",
+    "frontend": "npm run dev --prefix codebridge-frontend",
+    "backend": "npm start --prefix backend-work-code-bridge-API-"
+  }
+}

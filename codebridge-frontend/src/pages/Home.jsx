@@ -7,7 +7,7 @@ export default function Home() {
       <section className="welcome-section mb-5">
         <p className="eyebrow">CodeBridge Academy</p>
         <h1>Turn curiosity into working code.</h1>
-        <p className="subtitle slogan">
+        <p className="subtitle slogan ">
           A hands-on React.js application integrated with the CodeBridge REST API and JSONPlaceholder.
         </p>
 

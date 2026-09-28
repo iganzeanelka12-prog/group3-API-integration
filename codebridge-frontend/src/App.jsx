@@ -16,6 +16,7 @@ import Courses from './pages/Courses';
 import Register from './pages/Register';
 import Login from './pages/Login';
 import Dashboard from './pages/Dashboard';
+import Programs from './pages/Programs';
 
 export default function App() {
   const [toast, setToast] = useState(null);
@@ -43,6 +44,7 @@ export default function App() {
               <Route path="/posts" element={<Posts />} />
               <Route path="/posts/:id" element={<PostDetail />} />
               <Route path="/courses" element={<Courses onShowToast={showToast} />} />
+              <Route path="/programs" element={<Programs />} />
               
               {/* Auth Routes */}
               <Route path="/register" element={<Register onShowToast={showToast} />} />

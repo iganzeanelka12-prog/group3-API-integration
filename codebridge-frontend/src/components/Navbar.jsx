@@ -30,6 +30,9 @@ export default function Navbar() {
         <NavLink to="/courses" className={({ isActive }) => (isActive ? 'active' : '')} id="nav-courses">
           Courses
         </NavLink>
+        <NavLink to="/programs" className={({ isActive }) => (isActive ? 'active' : '')} id="nav-programs">
+          Programs
+        </NavLink>
         {isAuthenticated && (
           <NavLink to="/dashboard" className={({ isActive }) => (isActive ? 'active' : '')} id="nav-dashboard">
             Dashboard
